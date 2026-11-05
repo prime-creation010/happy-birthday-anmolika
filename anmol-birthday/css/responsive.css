@@ -1,0 +1,24 @@
+@media (max-width: 760px) {
+  .site-header { padding: 18px 6vw; }.header-label { display: none; }.header-right { gap: 0; }
+  .chapter { padding-left: 7vw; padding-right: 7vw; }.hero { padding: 145px 7vw 85px; }
+  .hero-bottom { left: 7vw; right: 7vw; font-size: 7px; }.hero-bottom span:nth-child(2) { display: none; }
+  .section-index { left: 7vw; top: 35px; font-size: 8px; }.section-foot { left: 7vw; right: 7vw; bottom: 20px; }
+  .birthday-heading { font-size: clamp(55px,15vw,95px); }.birthday-note { font-size: 16px; }.cake-wrap { width: 150px; }
+  .gallery { padding-top: 130px; }.section-heading { margin-bottom: 65px; }
+  .feature-one, .dance-feature, .dance-feature-reverse { grid-template-columns: 1fr; gap: 35px; margin-bottom: 90px; max-width: 520px; }
+  .feature-one .photo-frame { width: 82%; }.feature-copy { padding: 0 5%; }.dance-copy { order: 2; padding: 0 5%; }.dance-feature-reverse .dance-copy { order: 2; }.dance-feature-reverse .photo-frame { order: 1; }
+  .photo-pair { gap: 5vw; margin-bottom: 90px; }.photo-pair figure:nth-child(2) { margin-top: 55px; }.photo-pair .photo-placeholder { min-height: 210px; }
+  .photo-trio { gap: 10px; margin-bottom: 90px; }.photo-trio .photo-placeholder { min-height: 160px; }.photo-trio .offset { margin-top: 35px; }
+  .photo-placeholder { min-height: 250px; }.dance-feature .photo-placeholder { min-height: 380px; }
+  .gratitude { padding-top: 140px; }.gratitude-line { grid-template-columns: 30px 1fr; gap: 10px; padding: 19px 0; }
+  .award-grid { grid-template-columns: 1fr; }.award-wide { grid-column: auto; }.award-card { min-height: 235px; }
+  .letter { padding-top: 130px; }.letter-shell { padding: 32px 25px 55px; }.letter-top { margin-bottom: 35px; font-size: 7px; }.letter-body { font-size: 18px; }.letter-stamp { width: 65px; height: 65px; font-size: 6px; bottom: 4%; right: 5%; }
+  .credits { padding: 100px 7vw 35px; }.credits-grid { gap: 25px 30px; }.credits-footer { font-size: 6px; }
+}
+@media (max-width: 420px) {
+  .intro-line { font-size: 18px; }.hero-title { font-size: 54px; }.hero-title i { font-size: .31em; letter-spacing: .13em; }
+  .countdown-values { gap: 15px; }.countdown-card { min-width: 0; padding: 13px 14px; }.countdown-values strong { font-size: 22px; }
+  .photo-trio { grid-template-columns: 1fr 1fr; }.photo-trio figure:last-child { display: none; }
+  .credits-grid { grid-template-columns: 1fr; text-align: center; }.credits-grid div { align-items: center; }.credits-footer { flex-direction: column; gap: 8px; }
+}
+@media (hover: none), (pointer: coarse) { .cursor-glow { display: none; } }
