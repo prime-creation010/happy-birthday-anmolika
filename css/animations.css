@@ -1,0 +1,10 @@
+/* Motion classes are progressively enhanced by GSAP; CSS keeps the page readable without it. */
+.reveal { opacity: 1; transform: none; }
+.hero-title { animation: title-rise 1.2s .25s both cubic-bezier(.2,.7,.2,1); }
+.enter-button { animation: fade-up .8s 1.1s both; }
+@keyframes title-rise { from { opacity: 0; transform: translateY(35px); filter: blur(8px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }
+@keyframes fade-up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes equalize { from { height: 4px; } to { height: 14px; } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
